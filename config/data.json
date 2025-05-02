@@ -1,0 +1,32 @@
+{
+  "logo": {
+    "src": "https://res.cloudinary.com/dmem56hib/image/upload/v1738084841/ipdc6zivf3ghnldsqork",
+    "alt": "Chiapas Logo",
+    "text": "chiapas",
+    "domain": "gob.mx"
+  },
+  "menuItems": [
+    {
+      "href": "https://www.chiapas.gob.mx/tramites",
+      "text": "Trámites"
+    },
+    {
+      "href": "https://www.chiapas.gob.mx/gobierno",
+      "text": "Gobierno"
+    },
+    {
+      "href": "https://www.chiapas.gob.mx/participa",
+      "text": "Participa"
+    },
+    {
+      "href": "http://gubernatura.transparencia.chiapas.gob.mx/",
+      "text": "Transparencia"
+    },
+    {
+      "href": "http://www.chiapas.gob.mx/busquedas",
+      "text": "<i class='fa-solid fa-magnifying-glass'></i>",
+      "target": "_blank",
+      "isHtml": true
+    }
+  ]
+}

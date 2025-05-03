@@ -7,17 +7,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-*,
+/* *,
 :after,
 :before {
     border: 0 solid #ecf0ef;
     box-sizing: border-box
-}
+} */
 
-:after,
+/* :after,
 :before {
     --tw-content: ""
-}
+} */
 
 :host,
 html {

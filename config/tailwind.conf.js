@@ -1,3 +1,7 @@
+/* 
+AUTHOR: ROBERTO SOSA CIGARROA
+COPYRIGHT: behance.net/rsosa
+*/
 /** @type {import('tailwindcss').Config} */
 tailwind.config = {
     theme: {

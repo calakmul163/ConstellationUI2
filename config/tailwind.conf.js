@@ -29,7 +29,7 @@ tailwind.config = {
                 'bs-pink-700': '#E33781',
                 'bs-pink-800': '#DF1E71',
                 'bs-pink-900': '#DC0562',
-                'bs-pink-950': '#d80069',
+                'bs-pink-950': '#C91160',
                 'bs-red-50': '#F7E9EA',
                 'bs-red-100': '#EFD2D4',
                 'bs-red-200': '#E8BCBF',

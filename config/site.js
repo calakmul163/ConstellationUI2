@@ -13,10 +13,10 @@ document.addEventListener('alpine:init', () => {
                 link: "https://www.chiapas.gob.mx/"
             },
             links: [
-                { text: "Trámites", url: "https://www.chiapas.gob.mx/tramites" },
+                { text: "Trámites", url: "https://chiapas.gob.mx/servicios-por-entidad/" },
                 { text: "Gobierno", url: "https://www.chiapas.gob.mx/gobierno" },
                 { text: "Participa", url: "https://www.chiapas.gob.mx/participa" },
-                { text: "Transparencia", url: "http://gubernatura.transparencia.chiapas.gob.mx/" }
+                { text: "Transparencia", url: "http://oficinadelgobernador.transparencia.chiapas.gob.mx/" }
             ],
             search: {
                 link: "http://www.chiapas.gob.mx/busquedas"

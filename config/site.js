@@ -38,6 +38,10 @@ document.addEventListener('alpine:init', () => {
                 image: "https://res.cloudinary.com/dmem56hib/image/upload/v1743715178/z1fzq9xgp26f0gf232m8",
                 alt: "Secretaría de la Mujer e Igualdad de Género",
             },
+            noimgdirectorio: {
+                image: "https://res.cloudinary.com/dmem56hib/image/upload/v1749596648/mmntstf7b8fhykoqmorc",
+                alt: "Imagen no disponible",
+            },
         }
     }));
 });

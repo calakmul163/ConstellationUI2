@@ -62,6 +62,10 @@ tailwind.config = {
                 'bs-beige-700': '#DFCEC1',
                 'bs-beige-800': '#DBC8B9',
                 'bs-beige-900': '#D7C2B2',
+                'pm-violet-500': '#8D60A6',
+                'pm-pink-500': '#DC0562',
+                'pm-amber-500': '#F2A039',
+                'pm-lime-500': '#7BC255',
             },
             backgroundImage: {
                 'im-herogob': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1741981188/S2CCAcU6ybhSIKff')",

@@ -4,7 +4,7 @@ COPYRIGHT: behance.net/rsosa
 */
 document.addEventListener('alpine:init', () => {
     Alpine.data('app', () => ({
-        footerData: {},
+        footerData: null,
         isLoading: true,
         error: null,
         
@@ -14,24 +14,35 @@ document.addEventListener('alpine:init', () => {
                 alt: "Secretaría de la Mujer e Igualdad de Género",
             },
         },
-        
-        async init() {
+        async fetchFooter() {
             try {
-                const response = await fetch('/api/v1/footer');
-                if (!response.ok) throw new Error('Error al cargar datos del footer');
+                this.isLoading = true;
+                this.error = null;
+                
+                const response = await fetch('/api/v1/footer');  // Añadí / al inicio
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 
                 const data = await response.json();
-                if (data.success) {
-                    this.footerData = data.data;
-                } else {
+                
+                if (!data.success) {
                     throw new Error(data.message || 'Error en los datos del footer');
                 }
-            } catch (err) {
-                this.error = err.message;
-                console.error('Error:', err);
+                
+                this.footerData = data.data;  // Accedemos a data.data según tu API
+                
+            } catch (error) {
+                console.error('Error fetching footer data:', error);
+                this.error = error.message || 'Error al cargar los datos del footer';
+                // Podrías agregar un fallback aquí si lo deseas
             } finally {
                 this.isLoading = false;
             }
-        }
+        },
+        init() {
+            this.fetchFooter();
+        },
     }));
 });

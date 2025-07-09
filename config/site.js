@@ -42,6 +42,12 @@ document.addEventListener('alpine:init', () => {
                 image: "https://res.cloudinary.com/dmem56hib/image/upload/v1749596648/mmntstf7b8fhykoqmorc",
                 alt: "Imagen no disponible",
             },
+        },
+        micrositio: {
+            logofooter: {
+                image: "https://res.cloudinary.com/dmem56hib/image/upload/v1734116724/ns6avom2p9eiuak42knr",
+                alt: "Secretaría de la Mujer e Igualdad de Género",
+            },
         }
     }));
 });

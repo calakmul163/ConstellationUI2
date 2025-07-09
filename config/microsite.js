@@ -16,14 +16,30 @@ document.addEventListener('alpine:init', () => {
         },
         async fetchFooter() {
             try {
-                const response = await fetch('api/v1/footer');
+                this.isLoading = true;
+                this.error = null;
+                
+                const response = await fetch('/api/v1/footer');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
                 const data = await response.json();
-                this.footerData = data;
-                console.log(data);
+                
+                if (!data.success) {
+                    throw new Error(data.message || 'Error en los datos del footer');
+                }
+                
+                this.footerData = data.data;
+                
             } catch (error) {
-                        console.error('Error fetching data:', error);
-                    }
-                },
+                console.error('Error fetching footer data:', error);
+                this.error = error.message || 'Error al cargar los datos del footer';
+            } finally {
+                this.isLoading = false;
+            }
+        },
         init() {
             this.fetchFooter();
         },

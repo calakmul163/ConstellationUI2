@@ -9477,10 +9477,24 @@ div.code-toolbar>.toolbar>.toolbar-item>span:hover {
     color: rgb(204 235 231)
 }
 
+.text-footer-micro a,
+.text-footer-micro p,
+.text-footer-micro svg {
+    color: rgb(58, 54, 54);
+}
+
 .row1-group:hover,
 .row1-group:hover p,
 .row1-group:hover svg {
     color: rgb(58, 54, 54);
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.row1-micro-group:hover,
+.row1-micro-group:hover p,
+.row1-micro-group:hover svg {
+    color: rgb(201, 17, 96);
     text-decoration: underline;
     transition: color 0.3s ease-in-out;
 }
@@ -9490,4 +9504,11 @@ footer h6 {
     font-weight: 600;
     --tw-text-opacity: 1;
     color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.footer-micro h5,
+.footer-micro h6 {
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(0, 156, 139)
 }

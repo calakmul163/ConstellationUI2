@@ -78,7 +78,7 @@ tailwind.config = {
                 'pa-footer-row2-pink': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1733866212/dq3kbxrv87ohbidjv653')",
                 'pa-footer-row1-teal': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1743714152/f7yerrjhput3tfj04fqy')",
                 'pa-footer-row1-beige': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1742836800/kca2sjqudr7tp58rratc')",
-                'pa-footer-row1-micrositios': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1733866845/k4vwphmma4lldow8uz8v')",
+                'pa-footer-row1-micrositios': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1752772245/BxOEMAyVZeN6FFXU')",
                 'mi-gradiente': 'linear-gradient(to right, #FF6347, #4682B4)',
             },
         },

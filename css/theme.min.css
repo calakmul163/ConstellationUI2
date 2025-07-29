@@ -5905,6 +5905,33 @@ div.zoom img {
     color: rgb(10 173 10/var(--tw-text-opacity))
 }
 
+.nav-pills-pages .nav-item .nav-link {
+    border-radius: 4px;
+    box-shadow: none;
+    border-color: #f0f0f0;
+    background-color: #f0f0f0;
+    font-size: 13px;
+    color: #363533;
+    text-align: left;
+    padding: 9px 10px;
+    line-height: normal;
+    margin: 5px 0;
+    min-height: 20px;
+}
+
+.nav-pills-pages .nav-item .nav-link:hover {
+    color: #001e2b;
+    --tw-bg-opacity: 1;
+    background-color: rgb(236 240 239/var(--tw-bg-opacity))
+}
+
+.nav-pills-pages .nav-item .nav-link.active {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(33 49 60/var(--tw-bg-opacity))
+}
+
 .nav-pills-dark .nav-item .nav-link {
     --tw-text-opacity: 1;
     align-items: center;

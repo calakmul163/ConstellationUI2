@@ -63,6 +63,7 @@ tailwind.config = {
                 'bs-beige-800': '#DBC8B9',
                 'bs-beige-900': '#D7C2B2',
                 'bs-beige-950': '#BFAC59',
+                'bs-beige-1000': '#AA9950',
                 'pm-violet-500': '#7060A8',
                 'pm-purple-500': '#8D60A6',
                 'pm-pink-500': '#DC0562',

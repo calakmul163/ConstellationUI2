@@ -5905,7 +5905,7 @@ div.zoom img {
     color: rgb(10 173 10/var(--tw-text-opacity))
 }
 
-.nav-pills-pages .nav-item .nav-link {
+.nav-pills-dark .nav-item .nav-link {
     --tw-text-opacity: 1;
     align-items: center;
     background-color: #f0f0f0;
@@ -5915,31 +5915,6 @@ div.zoom img {
     font-weight: 500;
     margin-bottom: .25rem;
     padding: .75rem .75rem
-}
-
-.nav-pills-pages .nav-item .nav-link:hover {
-    color: #001e2b;
-    --tw-bg-opacity: 1;
-    background-color: rgb(236 240 239/var(--tw-bg-opacity))
-}
-
-.nav-pills-pages .nav-item .nav-link.active {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255/var(--tw-text-opacity));
-    --tw-bg-opacity: 1;
-    background-color: rgb(33 49 60/var(--tw-bg-opacity))
-}
-
-.nav-pills-dark .nav-item .nav-link {
-    --tw-text-opacity: 1;
-    align-items: center;
-    background-color: transparent;
-    border-radius: .5rem;
-    color: rgb(33 49 60/var(--tw-text-opacity));
-    display: flex;
-    font-weight: 500;
-    margin-bottom: .25rem;
-    padding: .5rem .75rem
 }
 
 .nav-pills-dark .nav-item .nav-link:hover {

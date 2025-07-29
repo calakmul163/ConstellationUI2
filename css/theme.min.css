@@ -5906,17 +5906,15 @@ div.zoom img {
 }
 
 .nav-pills-pages .nav-item .nav-link {
-    border-radius: 4px;
-    box-shadow: none;
-    border-color: #f0f0f0;
+    --tw-text-opacity: 1;
+    align-items: center;
     background-color: #f0f0f0;
-    font-size: 13px;
-    color: #363533;
-    text-align: left;
-    padding: 9px 10px;
-    line-height: normal;
-    margin: 5px 0;
-    min-height: 20px;
+    border-radius: .5rem;
+    color: rgb(33 49 60/var(--tw-text-opacity));
+    display: flex;
+    font-weight: 500;
+    margin-bottom: .25rem;
+    padding: .75rem .75rem
 }
 
 .nav-pills-pages .nav-item .nav-link:hover {

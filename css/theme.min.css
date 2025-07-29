@@ -5905,32 +5905,8 @@ div.zoom img {
     color: rgb(10 173 10/var(--tw-text-opacity))
 }
 
-.nav-left-link {
-    border-radius: 4px;
-    box-shadow: none;
-    border-color: #f0f0f0;
-    background-color: #f0f0f0;
-    font-size: 13px;
-    color: #363533;
-    text-align: left;
-    padding: 9px 10px;
-    line-height: normal;
-    margin: 5px 0;
-    min-height: 20px;
-}
-
-.nav-left-link:active {
-    background-color: #9f8b4f;
-    border-color: #9f8b4f;
-    color: #fff;
-}
-
-.nav-left-link:hover {
-    background-color: #9f8b4f;
-    color: #fff;
-}
-
-.nav-pills-dark .nav-item .nav-link {   --tw-text-opacity: 1;
+.nav-pills-dark .nav-item .nav-link {
+    --tw-text-opacity: 1;
     align-items: center;
     background-color: transparent;
     border-radius: .5rem;

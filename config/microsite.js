@@ -2,6 +2,7 @@
 AUTHOR: ROBERTO SOSA CIGARROA
 COPYRIGHT: behance.net/rsosa
 */
+
 document.addEventListener('alpine:init', () => {
     Alpine.data('microsites', () => ({
         footerData: null,

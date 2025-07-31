@@ -19,7 +19,7 @@ document.addEventListener('alpine:init', () => {
                 this.isLoading = true;
                 this.error = null;
                 
-                const response = await fetch('/api/v1/footer');
+                const response = await fetch('/api/v1/3OqUnxVQhwb3Df4peCxa0WQ6pELoiyuO');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);

@@ -258,6 +258,12 @@ document.addEventListener('alpine:init', () => {
                     target: '_blank',
                 },
                 {
+                    title: 'Informe Estadístico 2024',
+                    url: 'https://drive.google.com/file/d/13uhOVwqxrNrygFktASPOxANIMNLsrLKU/view?usp=sharing',
+                    type: 'INFORME',
+                    target: '_blank',
+                },
+                {
                     title: 'Informe Estadístico 2023',
                     url: 'https://drive.google.com/file/d/1xK9DvYeQU0PhDNpylaq9cDSvH2ooNeT1/view?usp=sharing',
                     type: 'INFORME',

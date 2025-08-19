@@ -53,5 +53,13 @@ document.addEventListener('alpine:init', () => {
                 alt: "Secretaría de la Mujer e Igualdad de Género",
             },
         },
+        styles: {
+            site: {
+
+            },
+            microsites: {
+                hr_bordado_pink: "flex flex-row items-center justify-center px-4 mx-auto mt-8 sm:px-6 lg:px-8",
+            }
+        }
     }));
 });

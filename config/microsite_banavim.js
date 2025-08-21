@@ -4,6 +4,7 @@ COPYRIGHT: behance.net/rsosa
 */
 document.addEventListener('alpine:init', () => {
     Alpine.data('micro', () => ({
+        open: false,
         footerData: null,
         isLoading: true,
         error: null,

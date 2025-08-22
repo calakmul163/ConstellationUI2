@@ -75,6 +75,7 @@ tailwind.config = {
                 'im-banner-lineadigital': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1742332631/nryOdrDOlK6kFxCz')",
                 'pa-banner-lineadigital': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1742362616/np7cahdt1w01rkf3exbo')",
                 'pa-card': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1742573015/fpbijw2mpzstfleaggdb')",
+                'pa-card-service-beige': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1742836800/kca2sjqudr7tp58rratc')",
                 'pa-footer-row2-black': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1743712927/znjqigyy4aedw6qi2j3j')",
                 'pa-footer-row2-teal': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1742843614/l43jwhsz9olsk28hrw9g')",
                 'pa-footer-row2-pink': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1733866212/dq3kbxrv87ohbidjv653')",

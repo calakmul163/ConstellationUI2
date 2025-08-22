@@ -215,7 +215,7 @@ document.addEventListener('alpine:init', () => {
                     order: '1'
                 },
                 {
-                    title: 'Casos a Nivel Nacional',
+                    title: 'Casos Nacionales',
                     url: 'https://banavim.mujeres.gob.mx/reportes-publicos',
                     type: 'ACERCADE',
                     target: '_blank',

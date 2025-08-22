@@ -222,6 +222,13 @@ document.addEventListener('alpine:init', () => {
                     order: '2'
                 },
                 {
+                    title: 'Ir a BANAVIM',
+                    url: 'https://banavim.mujeres.gob.mx/',
+                    type: 'ACERCADE',
+                    target: '_blank',
+                    order: '3'
+                },
+                {
                     title: 'Plan Anual de Trabajo',
                     url: 'https://drive.google.com/file/d/1CsonLjWoqk0TbVHDEsgy5VD191uehZtK/view?usp=sharing',
                     type: 'TOOL',

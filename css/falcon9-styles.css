@@ -1,0 +1,122 @@
+/*
+AUTHOR: ROBERTO SOSA CIGARROA
+COPYRIGHT: behance.net/rsosa
+*/
+
+/* Colores personalizados - Background */
+.bg-bs-teal-50 { background-color: #E5F5F3; }
+.bg-bs-teal-100 { background-color: #CCEBE7; }
+.bg-bs-teal-200 { background-color: #B2E1DB; }
+.bg-bs-teal-300 { background-color: #99D7CF; }
+.bg-bs-teal-400 { background-color: #80CDC3; }
+.bg-bs-teal-500 { background-color: #66C3B7; }
+.bg-bs-teal-600 { background-color: #4DB9AB; }
+.bg-bs-teal-650 { background-color: #00BEB0; }
+.bg-bs-teal-700 { background-color: #33AF9F; }
+.bg-bs-teal-800 { background-color: #1AA593; }
+.bg-bs-teal-900 { background-color: #009C8B; }
+.bg-bs-teal-950 { background-color: #10766B; }
+
+.bg-bs-pink-50 { background-color: #FBE6EF; }
+.bg-bs-pink-100 { background-color: #F8CDE0; }
+.bg-bs-pink-200 { background-color: #F4B4D0; }
+.bg-bs-pink-300 { background-color: #F19BC0; }
+.bg-bs-pink-400 { background-color: #ED82B0; }
+.bg-bs-pink-500 { background-color: #EA69A1; }
+.bg-bs-pink-600 { background-color: #E65091; }
+.bg-bs-pink-700 { background-color: #E33781; }
+.bg-bs-pink-800 { background-color: #DF1E71; }
+.bg-bs-pink-900 { background-color: #DC0562; }
+.bg-bs-pink-950 { background-color: #C91160; }
+
+.bg-bs-red-50 { background-color: #F7E9EA; }
+.bg-bs-red-100 { background-color: #EFD2D4; }
+.bg-bs-red-200 { background-color: #E8BCBF; }
+.bg-bs-red-300 { background-color: #E0A5AA; }
+.bg-bs-red-400 { background-color: #D88F94; }
+.bg-bs-red-500 { background-color: #D1797F; }
+.bg-bs-red-600 { background-color: #C9626A; }
+.bg-bs-red-700 { background-color: #C14C54; }
+.bg-bs-red-800 { background-color: #B9363F; }
+.bg-bs-red-900 { background-color: #B9363F; }
+.bg-bs-red-950 { background-color: #87252b; }
+
+.bg-bs-black-50 { background-color: #E9E9E9; }
+.bg-bs-black-100 { background-color: #D3D2D2; }
+.bg-bs-black-200 { background-color: #BDBCBC; }
+.bg-bs-black-300 { background-color: #A7A5A6; }
+.bg-bs-black-400 { background-color: #918F90; }
+.bg-bs-black-500 { background-color: #7B7979; }
+.bg-bs-black-600 { background-color: #656263; }
+.bg-bs-black-700 { background-color: #504C4D; }
+.bg-bs-black-800 { background-color: #3A3636; }
+.bg-bs-black-900 { background-color: #241F20; }
+.bg-bs-black-950 { background-color: #1B1A1A; }
+
+.bg-bs-beige-50 { background-color: #FBF9F7; }
+.bg-bs-beige-100 { background-color: #F7F3EF; }
+.bg-bs-beige-200 { background-color: #F3EDE8; }
+.bg-bs-beige-300 { background-color: #EFE7E0; }
+.bg-bs-beige-400 { background-color: #EBE0D8; }
+.bg-bs-beige-500 { background-color: #E7DAD1; }
+.bg-bs-beige-600 { background-color: #E3D4C9; }
+.bg-bs-beige-700 { background-color: #DFCEC1; }
+.bg-bs-beige-800 { background-color: #DBC8B9; }
+.bg-bs-beige-900 { background-color: #D7C2B2; }
+.bg-bs-beige-950 { background-color: #BFAC59; }
+.bg-bs-beige-1000 { background-color: #AA9950; }
+
+.bg-pm-violet-500 { background-color: #7060A8; }
+.bg-pm-purple-500 { background-color: #8D60A6; }
+.bg-pm-pink-500 { background-color: #DC0562; }
+.bg-pm-amber-500 { background-color: #F2A039; }
+.bg-pm-lime-500 { background-color: #7BC255; }
+
+/* Colores personalizados - Texto */
+.text-bs-teal-50 { color: #E5F5F3; }
+.text-bs-teal-100 { color: #CCEBE7; }
+.text-bs-teal-200 { color: #B2E1DB; }
+.text-bs-teal-300 { color: #99D7CF; }
+.text-bs-teal-400 { color: #80CDC3; }
+.text-bs-teal-500 { color: #66C3B7; }
+.text-bs-teal-600 { color: #4DB9AB; }
+.text-bs-teal-650 { color: #00BEB0; }
+.text-bs-teal-700 { color: #33AF9F; }
+.text-bs-teal-800 { color: #1AA593; }
+.text-bs-teal-900 { color: #009C8B; }
+.text-bs-teal-950 { color: #10766B; }
+
+.text-bs-pink-50 { color: #FBE6EF; }
+.text-bs-pink-100 { color: #F8CDE0; }
+.text-bs-pink-200 { color: #F4B4D0; }
+.text-bs-pink-300 { color: #F19BC0; }
+.text-bs-pink-400 { color: #ED82B0; }
+.text-bs-pink-500 { color: #EA69A1; }
+.text-bs-pink-600 { color: #E65091; }
+.text-bs-pink-700 { color: #E33781; }
+.text-bs-pink-800 { color: #DF1E71; }
+.text-bs-pink-900 { color: #DC0562; }
+.text-bs-pink-950 { color: #C91160; }
+
+.text-bs-black-700 { color: #504C4D; }
+.text-bs-black-900 { color: #241F20; }
+
+.text-bs-beige-1000 { color: #AA9950; }
+
+/* Bordes personalizados */
+.border-bs-teal-650 { border-color: #00BEB0; }
+.border-bs-pink-600 { border-color: #E65091; }
+.border-bs-beige-950 { border-color: #BFAC59; }
+
+/* Background images */
+.bg-im-herogob { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1741981188/S2CCAcU6ybhSIKff'); }
+.bg-im-banner-lineadigital { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1742332631/nryOdrDOlK6kFxCz'); }
+.bg-pa-banner-lineadigital { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1742362616/np7cahdt1w01rkf3exbo'); }
+.bg-pa-card { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1742573015/fpbijw2mpzstfleaggdb'); }
+.bg-pa-card-service-beige { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1742836800/kca2sjqudr7tp58rratc'); }
+.bg-pa-footer-row2-black { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1743712927/znjqigyy4aedw6qi2j3j'); }
+.bg-pa-footer-row2-teal { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1742843614/l43jwhsz9olsk28hrw9g'); }
+.bg-pa-footer-row2-pink { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1733866212/dq3kbxrv87ohbidjv653'); }
+.bg-pa-footer-row1-teal { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1743714152/f7yerrjhput3tfj04fqy'); }
+.bg-pa-footer-row1-beige { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1742836800/kca2sjqudr7tp58rratc'); }
+.bg-pa-footer-row1-micrositios { background-image: url('https://res.cloudinary.com/dmem56hib/image/upload/v1752772245/BxOEMAyVZeN6FFXU'); }

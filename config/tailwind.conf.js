@@ -3,7 +3,7 @@ AUTHOR: ROBERTO SOSA CIGARROA
 COPYRIGHT: behance.net/rsosa
 */
 /** @type {import('tailwindcss').Config} */
-tailwind.config = {
+export default {
     theme: {
         extend: {
             colors: {
@@ -84,6 +84,6 @@ tailwind.config = {
                 'pa-footer-row1-micrositios': "url('https://res.cloudinary.com/dmem56hib/image/upload/v1752772245/BxOEMAyVZeN6FFXU')",
                 'mi-gradiente': 'linear-gradient(to right, #FF6347, #4682B4)',
             },
-        },
-    },
+        }
+    }
 }

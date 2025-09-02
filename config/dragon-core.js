@@ -55,9 +55,11 @@ document.addEventListener('alpine:init', () => {
         },
         styles: {
             pages: {
-                h1: '!text-5xl !font-semibold text-bs-black-950',
+                h1: '!text-5xl !font-semibold !text-bs-black-950',
                 h2: '',
+                h3_subtitle: '!text-2xl !font-semibold !text-bs-pink-900',
                 p: '!text-lg text-justify text-gray-700',
+                hr_title: '!my-2 border-t-2 border-dashed !border-bs-beige-900',
             },
             microsites: {
                 hr_bordado_pink: "flex flex-row items-center justify-center px-4 mx-auto mt-8 sm:px-6 lg:px-8",

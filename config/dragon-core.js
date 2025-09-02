@@ -57,7 +57,7 @@ document.addEventListener('alpine:init', () => {
             pages: {
                 h1: '!text-5xl !font-semibold text-bs-black-950',
                 h2: '',
-                p: '',
+                p: '!text-lg text-justify text-gray-700',
             },
             microsites: {
                 hr_bordado_pink: "flex flex-row items-center justify-center px-4 mx-auto mt-8 sm:px-6 lg:px-8",

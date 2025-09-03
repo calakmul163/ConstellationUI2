@@ -64,6 +64,13 @@ document.addEventListener('alpine:init', () => {
             },
             microsites: {
                 h1_gradient_emerald: 'mt-8 mb-0 !text-5xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-400 font-display lg:!text-7xl',
+                p_text1: '!text-lg !text-justify !text-gray-700 mt-14 lg:!text-xl',
+                a_b_orange: 'sm:w-fit w-full group px-3.5 py-2 bg-orange-600/80 hover:bg-orange-400 rounded-full transition-all duration-700 ease-in-out justify-center items-center flex',
+                a_b_span_orange: 'px-1.5 text-white !text-sm font-medium leading-6 group-hover:!-translate-x-0.5 transition-all duration-700 ease-in-out',
+                a_b_svg_orange: 'group-hover:!translate-x-0.5 transition-all duration-700 ease-in-out',
+                a_b_pink_border: 'sm:w-fit w-full group px-3.5 py-2 border-2 border-pink-500 hover:!border-pink-600 hover:!bg-yellow-100  rounded-full transition-all duration-700 ease-in-out justify-center items-center flex',
+                a_b_span_pink_border: 'px-1.5 !text-gray-900 !text-sm !font-medium leading-6 group-hover:!-translate-x-0.5 transition-all duration-700 ease-in-out',
+                a_b_svg_pink_border: 'group-hover:!translate-x-0.5 transition-all duration-700 ease-in-out',
                 hr_bordado_pink: "flex flex-row items-center justify-center px-4 mx-auto mt-8 sm:px-6 lg:px-8",
             }
         }

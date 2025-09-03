@@ -63,6 +63,7 @@ document.addEventListener('alpine:init', () => {
                 hr_subtitle: '!my-2 border-t-2 border-dashed !border-bs-beige-900',
             },
             microsites: {
+                h1_gradient_emerald: 'mt-8 mb-0 !text-5xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-400 font-display lg:!text-7xl',
                 hr_bordado_pink: "flex flex-row items-center justify-center px-4 mx-auto mt-8 sm:px-6 lg:px-8",
             }
         }

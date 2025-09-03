@@ -68,6 +68,7 @@ document.addEventListener('alpine:init', () => {
                 h1_hero_refugios: 'py-10 !text-4xl !font-bold tracking-tight text-center !text-slate-800 md:!text-4xl lg:!text-5xl',
                 h1_gradient_avgm: 'mt-8 mb-0 !text-5xl md:!text-6xl lg:!text-6xl xl:!text-6xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-violet-500 to-purple-600 !font-display',
                 h1_gradient_banavim: 'mt-8 mb-8 !text-6xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-fuchsia-600 to-pink-500 font-display',
+                h1_gradient_paibim: 'mt-8 mb-0 !text-5xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-pink-500 to-rose-400 font-display lg:!text-7xl',
                 h1_gradient_refugios: 'mt-8 mb-0 !text-5xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-400 font-display lg:!text-7xl',
                 p_text1: '!text-lg !text-justify !text-gray-700 mt-14 lg:!text-xl',
                 a_b_amber: 'sm:w-fit w-full group px-3.5 py-2 bg-amber-500 hover:!bg-amber-400 rounded-full transition-all duration-700 ease-in-out justify-center items-center flex',

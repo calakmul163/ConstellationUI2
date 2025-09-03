@@ -63,7 +63,9 @@ document.addEventListener('alpine:init', () => {
                 hr_subtitle: '!my-2 border-t-2 border-dashed !border-bs-beige-900',
             },
             microsites: {
-                h1_gradient_emerald: 'mt-8 mb-0 !text-5xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-400 font-display lg:!text-7xl',
+                h1_hero_banavim: 'mt-0 mb-8 !text-6xl !font-extrabold tracking-tight text-left text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-fuchsia-600 to-pink-500 font-display',
+                h1_hero_refugios: 'py-10 !text-4xl !font-bold tracking-tight text-center !text-slate-800 md:!text-4xl lg:!text-5xl',
+                h1_gradient_refugios: 'mt-8 mb-0 !text-5xl !font-extrabold tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-400 font-display lg:!text-7xl',
                 p_text1: '!text-lg !text-justify !text-gray-700 mt-14 lg:!text-xl',
                 a_b_orange: 'sm:w-fit w-full group px-3.5 py-2 bg-orange-600/80 hover:bg-orange-400 rounded-full transition-all duration-700 ease-in-out justify-center items-center flex',
                 a_b_span_orange: 'px-1.5 text-white !text-sm font-medium leading-6 group-hover:!-translate-x-0.5 transition-all duration-700 ease-in-out',

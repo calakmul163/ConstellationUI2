@@ -229,6 +229,13 @@ document.addEventListener('alpine:init', () => {
                 order: '3'
             },
             {
+                title: 'Fundamento Jurídico',
+                url: 'https://drive.google.com/file/d/1R0dU9gKQg5CbiKGYQ8dBvCoU9b7Cwy-k/view?usp=sharing',
+                type: 'ACERCADE',
+                target: '_blank',
+                order: '4'
+            },
+            {
                 title: 'Plan Anual de Trabajo',
                 url: 'https://drive.google.com/file/d/1CsonLjWoqk0TbVHDEsgy5VD191uehZtK/view?usp=sharing',
                 type: 'TOOL',

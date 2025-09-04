@@ -5,7 +5,7 @@ COPYRIGHT: behance.net/rsosa
 document.addEventListener('alpine:init', () => {
     Alpine.data('micro', () => ({
         open: false,
-        footerData: null,
+        footerData: [],
         isLoading: true,
         error: null,
         urlimagesmicrosite: '/themes/nebula_gallery/banavim/',
